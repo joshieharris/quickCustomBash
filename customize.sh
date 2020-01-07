@@ -15,10 +15,10 @@ git clone https://github.com/tomasiser/vim-code-dark.git
 
 touch $HOME/.vimrc
 
-mkdir $HOME/.vim
-mkdir $HOME/.vim/autoload
-mkdir $HOME/.vim/base16
-mkdir $HOME/.vim/colors
+mkdir -p $HOME/.vim
+mkdir -p $HOME/.vim/autoload
+mkdir -p $HOME/.vim/base16
+mkdir -p $HOME/.vim/colors
 
 cp -r ./vim-code-dark/autoload/* $HOME/.vim/autoload
 cp -r ./vim-code-dark/base16/* $HOME/.vim/base16
