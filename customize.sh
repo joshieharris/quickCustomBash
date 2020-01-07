@@ -25,3 +25,5 @@ cp -r ./vim-code-dark/base16/* $HOME/.vim/base16
 cp -r ./vim-code-dark/colors/* $HOME/.vim/colors
 
 cat ./vim/customVim.txt >> $HOME/.vimrc
+
+rm -rf $HOME/quickCustomBash
