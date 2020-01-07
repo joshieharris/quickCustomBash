@@ -1,0 +1,11 @@
+set nu
+set tabstop=4
+" ts = tabstop (# of spaces the file uses for <Tab>)
+" sts = # of spaces <Tab> uses when you use in edit mode
+" sw = shiftwidth (# of spaces used for autoindent)
+autocmd FileType python setlocal ts=4 sts=4 sw=4
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2
+set t_Co=256
+set t_ut=
+colorscheme codedark
+
