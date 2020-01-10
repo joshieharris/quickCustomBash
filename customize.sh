@@ -1,6 +1,6 @@
 #!/bin/bash
 
-printf "What distro are you using?\nUbuntu = 1\nAmazon Linux\n"
+printf "What distro are you using?\nUbuntu = 1\nAmazon Linux = 2\n"
 
 read userInput
 
