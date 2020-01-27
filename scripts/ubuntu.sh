@@ -8,7 +8,7 @@ sudo apt-get upgrade
 sudo apt-get install python3
 
 ### Customize .bashrc ###
-cat ../bash/customPrompt.txt >> $HOME/.bashrc
+cat $PWD/bash/customPrompt.txt >> $HOME/.bashrc
 
 ### Customize .vimrc ###
 git clone https://github.com/tomasiser/vim-code-dark.git
@@ -24,6 +24,6 @@ cp -r ./vim-code-dark/autoload/* $HOME/.vim/autoload
 cp -r ./vim-code-dark/base16/* $HOME/.vim/base16
 cp -r ./vim-code-dark/colors/* $HOME/.vim/colors
 
-cat ../vim/customVim.txt >> $HOME/.vimrc
+cat $PWD/../vim/customVim.txt >> $HOME/.vimrc
 
 rm -rf $HOME/quickCustomBash
